@@ -197,7 +197,7 @@ Settings: Label unchecked, Period 5 s. The panel shows `No VPN` until OpenVPN co
 5. **Dry-run (`apt -s`) before removals.** It's a cheap way to check what will be removed before committing.
 6. **Don't reboot a half-upgraded system.** Finish until apt reports zero pending changes.
 7. **Update regularly.** A rolling release updated every couple of weeks never builds up two years of conflicts.
-8. **Document as you go, not after.** I took plenty of screenshots but didn't organize them, so it was hard to match them to steps afterwards. Next time: save screenshots into a folder per step with descriptive names (e.g. `03-dpkg-overwrite-error.png`), and keep a running notes file of commands and results while working.
+8. **Document as you go, not after.** Screenshots named by step (e.g. `03-dpkg-overwrite-error.png`) are much easier to match up when writing up afterwards.
 
 ## Follow-ups
 
